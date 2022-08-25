@@ -475,8 +475,7 @@ footer .social img{
     }
 }
 @media screen and ( max-width: 741px){
-    .nav-lists .nav-item,
-    .nav-lists .nav-item .fa-caret-down{
+    .nav-lists .nav-item{
         display: none;
     }
     header nav div:nth-child(2) .fa-bars{
@@ -646,5 +645,8 @@ footer .social img{
         font-size: 12px;
         max-width: 180px;
         margin-left: 15px;
+    }
+    .nav-lists .nav-item{
+        display: none;
     }
 }
