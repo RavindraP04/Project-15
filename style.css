@@ -415,3 +415,209 @@ footer .social img{
     margin-left: 40px;
 }
 
+@media screen and (max-width: 1228px) {
+    .hero-img img{
+        height: 450px;
+    }
+    .header-right-text{
+        margin-right: -120px;
+    }
+}
+@media screen and ( max-width: 1030px) {
+    .header-right-text{
+        margin-right: -180px;
+    }
+    header .header-text div h1{
+        font-size: 43px;
+    }
+    .hero-img img{
+        height: 420px;
+    }
+    header .header-text div p{
+        font-size: 15px;
+    }
+    .section-4 .left h1{
+        font-size: 35px;
+    }
+    .section-4 .left p{
+        font-size: 14px;
+        max-width: 380px;
+    }
+    .section-4 .contact{
+        display: flex;
+        gap: 80px;
+    }
+}
+@media screen and ( max-width: 928px) {
+    header .header-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .header-right-text{
+        text-align: center;
+    }
+    .closed-info{
+        position: relative;
+        left: 20px;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 908px) {
+    .section-4 .left{
+        text-align: center;
+    }
+    .section-4 .contact{
+        display: flex;
+        gap: 50px;
+    }
+}
+@media screen and ( max-width: 741px){
+    .nav-lists .nav-item{
+        display: none;
+    }
+    header nav div:nth-child(2) .fa-bars{
+        display: block;
+        color: #ffffff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .social{
+        position: relative;
+        right: 0;
+    }
+    .section-4 .left h1{
+        font-size: 30px;
+    }
+    .section-4 .left p{
+        font-size: 14px;
+        max-width: 350px;
+    }
+    .hero-img .base{
+        height: 800px;
+        width: 600px;
+    }
+}
+@media screen and (max-width: 684px) {
+    .closed-info{
+        position: relative;
+        left: 27%;
+    }
+    .hero-img .base{
+        height: 800px;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 578px) {
+    .closed-info{
+        position: relative;
+        left: 20%;
+    }
+    .hero-img img{
+        height: 350px;
+    }
+    header .header-text div h1{
+        font-size: 35px;
+    }
+    header .header-text div p{
+        font-size: 12px;
+        max-width: 350px;
+    }
+    .section-3 .heading{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-3 .heading button{
+        display: block;
+        position: absolute;
+        left: 40%;
+        top: 1935px;
+        font-size: 10px;
+    }
+    .section-4 .left h1{
+        font-size: 25px;
+    }
+    .section-4 .left p{
+        font-size: 12px;
+        max-width: 250px;
+        margin-left: 20px;
+    }
+    .section-4{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .box-top .box-1 img{
+        height: 150px;
+    }
+    .box-top .box-2 img{
+        height: 170px;
+    }
+    .box-bottom .box-1 img,
+    .box-bottom .box-2 img{
+        height: 160px;
+    }
+    .section-3 .heading button{
+        top: 1750px;
+    }
+    .header-right-text{
+        margin-left: 20px;
+    }
+    .closed-info{
+        position: relative;
+        left: 17%;
+    }
+    .section-3 .heading h2,
+    .section-3 .heading p{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 467px){
+    .closed-info{
+        position: relative;
+        left: 15%;
+    }
+    .box-top .box-1 img{
+        height: 120px;
+    }
+    .box-top .box-2 img{
+        height: 135px;
+    }
+    .box-bottom .box-2 img{
+        height: 130px;
+    }
+    .box-bottom .box-1 img{
+        height: 150px;
+        padding: 62px 25px;
+    }
+    .section-3 .heading button{
+        top: 1650px;
+    }
+    .section-4 .left h1{
+        font-size: 20px;
+    }
+    .section-4 .left p{
+        font-size: 12px;
+        max-width: 250px;
+        margin-left: 20px;
+    }
+    footer .container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social{
+        position: relative;
+        right: 30px;
+    }
+}
+@media screen and (max-width: 396px){
+    .closed-info{
+        position: relative;
+        left: 7%;
+    }
+}
