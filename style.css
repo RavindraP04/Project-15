@@ -47,7 +47,7 @@ header nav div:nth-child(2) a{
 }
 
 /* --------------hamburger manu icon------------- */
-header nav div:nth-child(2) .fa-bars{
+header .fa-bars{
     display: none;
 }
 
@@ -478,8 +478,10 @@ footer .social img{
     .nav-lists .nav-item{
         display: none;
     }
-    header nav div:nth-child(2) .fa-bars{
+    header .fa-bars{
         display: block;
+        float: right;
+        margin-top: -30px;
         color: #ffffff;
         font-size: 20px;
         cursor: pointer;
@@ -646,8 +648,4 @@ footer .social img{
         max-width: 180px;
         margin-left: 15px;
     }
-    header nav div:nth-child(2){
-        display: none;
-    }
-    
 }
