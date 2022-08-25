@@ -475,7 +475,8 @@ footer .social img{
     }
 }
 @media screen and ( max-width: 741px){
-    .nav-lists .nav-item{
+    .nav-lists .nav-item,
+    .nav-lists .nav-item .fa-caret-down{
         display: none;
     }
     header nav div:nth-child(2) .fa-bars{
@@ -548,6 +549,10 @@ footer .social img{
     .section-4{
         margin-top: 100px;
     }
+    .hero-img .base{
+        height: 800px;
+        width: 400px;
+    }
 }
 @media screen and (max-width: 500px){
 
@@ -574,6 +579,10 @@ footer .social img{
     .section-3 .heading h2,
     .section-3 .heading p{
         margin-left: 40px;
+    }
+    .hero-img .base{
+        height: 800px;
+        width: 350px;
     }
 }
 @media screen and (max-width: 467px){
@@ -615,10 +624,27 @@ footer .social img{
         position: relative;
         right: 30px;
     }
+    .hero-img .base{
+        height: 800px;
+        width: 320px;
+    }
 }
 @media screen and (max-width: 396px){
     .closed-info{
         position: relative;
         left: 7%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .section-3 .heading button{
+        top: 1690px;
+    }
+    .section-4 .left h1{
+        font-size: 17px;
+    }
+    .section-4 .left p{
+        font-size: 12px;
+        max-width: 180px;
+        margin-left: 15px;
     }
 }
