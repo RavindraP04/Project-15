@@ -646,7 +646,8 @@ footer .social img{
         max-width: 180px;
         margin-left: 15px;
     }
-    .nav-lists .nav-item{
+    header nav div:nth-child(2){
         display: none;
     }
+    
 }
